@@ -1,0 +1,23 @@
+/* .ant-card-meta-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+} */
+.ant-card-meta-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-card-meta-title,
+.ant-card-meta-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
